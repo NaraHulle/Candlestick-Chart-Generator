@@ -11,3 +11,13 @@ __2. Chart Generation:__
  - The ```generate_candlestick_chart``` method converts the data to a pandas DataFrame for analysis.
  - The DataFrame is processed to convert the 'date' column to a datetime format and set it as the index.
  - A candlestick chart is generated using ```mplfinance``` with the specified chart style, title, labels, and additional settings such as non-trading day display, figure ratio, figure scale, moving averages, and volume display.
+
+__3. Usage:__
+
+ - Make sure you have the required libraries ```requests```, ```pandas```, ```mplfinance``` installed before running the code. You can install them using the following commands:
+   ```
+    pip install requests
+    pip install pandas
+    pip install mplfinance
+
+   ```
