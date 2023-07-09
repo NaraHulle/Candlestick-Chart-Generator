@@ -22,7 +22,7 @@ class CandlestickChartGenerator:
         df['date'] = pd.to_datetime(df['date'], unit='s')
         df.set_index('date', inplace=True)
 
-        # Generate candlestick chart using mplfinance
+        # Generate candlestick chart using mplfinance:
         mpf.plot(df, type='candle', style='yahoo', title=f'{self.symbol} Candlestick Chart',
                  ylabel='Price', ylabel_lower='Volume', show_nontrading=True,
                  figratio=(16, 9), figscale=1.5, mav=(20, 50), volume=True)
