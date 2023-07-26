@@ -29,7 +29,7 @@ class CandlestickChartGenerator:
 
 # Example usage:
 
-# Define API URL and symbol
+# Define API URL and symbol:
 api_url = "https://api.example.com/historical-data"
 symbol = "BTC/USD"
 
