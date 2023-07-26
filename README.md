@@ -5,7 +5,6 @@ __1. Data Retrieval:__
 
  - The ```fetch_historical_data``` method fetches historical price data from the specified API using the ```requests``` library and stores it in the ```self.data``` variable.
    
-
 __2. Chart Generation:__
 
  - The ```generate_candlestick_chart``` method converts the data to a pandas DataFrame for analysis.
