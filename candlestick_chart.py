@@ -33,10 +33,10 @@ class CandlestickChartGenerator:
 api_url = "https://api.example.com/historical-data"
 symbol = "BTC/USD"
 
-# Create an instance of CandlestickChartGenerator
+# Create an instance of CandlestickChartGenerator:
 chart_generator = CandlestickChartGenerator(api_url, symbol)
 
-# Fetch historical price data
+# Fetch historical price data:
 chart_generator.fetch_historical_data()
 
 # Generate candlestick chart
