@@ -27,9 +27,9 @@ class CandlestickChartGenerator:
                  ylabel='Price', ylabel_lower='Volume', show_nontrading=True,
                  figratio=(16, 9), figscale=1.5, mav=(20, 50), volume=True)
 
-# Example usage:
+# Example usage
 
-# Define API URL and symbol:
+# Define API URL and symbol
 api_url = "https://api.example.com/historical-data"
 symbol = "BTC/USD"
 
