@@ -21,4 +21,7 @@ __3. Usage:__
    pip install mplfinance
    ```
  - To use this code, replace the ```api_url``` variable with the actual API endpoint to fetch historical price data for your desired cryptocurrency and trading pair. Additionally, customize the chart appearance and indicators by modifying the parameters of the ```mpf.plot``` function in the ```generate_candlestick_chart``` method.
+
+   -----
+   
    
