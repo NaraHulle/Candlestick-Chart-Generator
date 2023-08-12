@@ -15,6 +15,7 @@ __2. Chart Generation:__
 __3. Usage:__
 
  - Make sure you have the required libraries ```requests```, ```pandas```, ```mplfinance``` installed before running the code. You can install them using the following commands:
+   
    ```
    pip install requests
    pip install pandas
