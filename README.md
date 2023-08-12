@@ -16,7 +16,7 @@ __3. Usage:__
 
  - Make sure you have the required libraries ```requests```, ```pandas```, ```mplfinance``` installed before running the code. You can install them using the following commands:
    
-   ```
+   ```bash
    pip install requests
    pip install pandas
    pip install mplfinance
