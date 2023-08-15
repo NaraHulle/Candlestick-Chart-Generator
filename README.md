@@ -1,6 +1,6 @@
 # Candlestick Chart Generator
 
-A python tool to generate candlestick charts for visualizing cryptocurrency price movements.
+A python tool to generate candlestick charts for visualizing cryptocurrency price movements:
 
 __1. Data Retrieval:__
 
