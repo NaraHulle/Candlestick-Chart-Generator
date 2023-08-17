@@ -9,7 +9,7 @@ class CandlestickChartGenerator:
         self.data = None
 
     def fetch_historical_data(self):
-        # Fetch historical price data from the API
+        # Fetch historical price data from the API:
         response = requests.get(self.api_url)
         if response.status_code == 200:
             self.data = response.json()
